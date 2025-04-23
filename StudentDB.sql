@@ -1,0 +1,10 @@
+CREATE DATABASE StudentDB;
+
+use StudentDB;
+
+CREATE TABLE students (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(50) NOT NULL,
+    email VARCHAR(100) NOT NULL,
+    age INT NOT NULL
+);
